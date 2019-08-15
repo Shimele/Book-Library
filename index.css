@@ -50,11 +50,9 @@ h2{
 
 }
 @media screen and (max-width:480px) {
-    #first-section { display:none }
+    .first-col { display:none }
 }
-.first-col{
-    
-}
+
 .first-col .text-box{
     padding: 12%;
     margin-top: 15%;
