@@ -42,10 +42,17 @@ h2{
     display: inline-block;
 }
 @media screen and (max-width:380px) {
-    .heading img{ width: 50% }
+    .heading img{ 
+        display: ;
+        max-width: 80%;
+        align-content: center;
+     }
 }
 @media screen and (max-width:380px) {
-    .heading img{ width: 25% }
+    .heading h2{ 
+        display: flex;
+        font-size: small;
+     }
 }
 
 #first-section{
@@ -97,6 +104,11 @@ h2{
     box-shadow: 1px 1px 5px orange;
     -moz-box-shadow: 1px 1px 5px orange;
     opacity: 0.5;
+}
+@media screen and (max-width:380px) {
+    .text-box h5, p{ 
+        font-size: small;
+     }
 }
 
 #third-section{
