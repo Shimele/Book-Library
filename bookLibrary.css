@@ -27,8 +27,11 @@ body{
 }
 a{
     padding-right: 3%;
-    text-decoration:none; 
-
+    text-decoration:none !important;
+    color: rgb(2, 3, 61)
+}
+a:hover{
+    color: orange;
 }
 .heading img{
     max-width: 25%;
@@ -46,8 +49,9 @@ h2{
 .first-col{
     
 }
-.text-box{
+.first-col .text-box{
     padding: 12%;
+    margin-top: 15%;
 }
 .first-col img{
     width: 70%;
@@ -69,10 +73,19 @@ h2{
 .second-col img{
     float: left;
     width: 50%;
-    margin-right: 10px;
 }
 .second-col .text-box{
+    float: right;
+    margin-top: 15%;
+    padding-left: 5px;
+    width: 50%;
+}
 
+.second-col:hover img{
+    border: orange;
+    box-shadow: 1px 1px 5px orange;
+    -moz-box-shadow: 1px 1px 5px orange;
+    opacity: 0.5;
 }
 
 #third-section{
@@ -86,17 +99,25 @@ h2{
 .third-col img{
     float: left;
     width: 50%;
-    margin-right: 7px;
 }
 .third-col .text-box{
-    margin-top: 5px;
+    float: right;
+    margin-top: 15%;
+    padding-left: 5px;
+    width: 50%;
+}
+.third-col:hover img{
+    border: orange;
+    box-shadow: 1px 1px 5px orange;
+    -moz-box-shadow: 1px 1px 5px orange;
+    opacity: 0.5;
 }
 
 .row{
     margin: 0 auto;
 }
 .blue{
-    color:blue
+    color:rgb(2, 3, 61)
 }.orange{
     color:orange;
 }
