@@ -18,14 +18,12 @@ body{
     width: 80%;
 
 }
-.heading{
 
-}
 .navs{
     padding: 3%;
 
 }
-@media screen and (max-width:680px) {
+@media screen and (max-width:380px) {
     .navs { display:none }
 }
 a{
@@ -43,13 +41,19 @@ a:hover{
 h2{
     display: inline-block;
 }
+@media screen and (max-width:380px) {
+    .heading img{ width: 50% }
+}
+@media screen and (max-width:380px) {
+    .heading img{ width: 25% }
+}
 
 #first-section{
     margin: 3% auto;
     width: 90%;
 
 }
-@media screen and (max-width:680px) {
+@media screen and (max-width:380px) {
     .responsive { display:none }
 }
 
